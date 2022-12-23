@@ -3,8 +3,36 @@
     "name": "Sinapp",
     "slug": "Sinapp",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "icon": "./assets/icon.png",
+    "color": "#f7cbcb",
+    "orientation": "portrait",
+    "primaryColor": "#f7cbcb",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f7cbcb"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "icon": "./assets/icon.png",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#f7cbcb"
+      },
+      "package": "com.sinapp",
+      "versionCode": 1,
+      "permissions": []
+    },
+
+    "assetBundlePatterns": ["**/*"],
+    "extra": {
+      "eas": {
+        "projectId": "ce84ee98-3ba1-465b-8cb8-39e78289cd1b"
+      }
+    }
   }
 }
