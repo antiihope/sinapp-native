@@ -49,7 +49,7 @@ Choose a template: » - Use arrow-keys. Return to submit.
 
 #### You'll notice the "Andorid" directory is changed to "Androids" with and added "S"
 
-that's due to expo ignoring the app.json
+this is due to expo ignoring the app.json
 file with the configurations for splash screen and icon if "Android" folder exists.
 
 _Expo assumes that these configurations are written natively in the Android folder_
