@@ -4,7 +4,6 @@
     "slug": "Sinapp",
     "version": "1.0.0",
     "icon": "./assets/icon.png",
-    "color": "#f7cbcb",
     "orientation": "portrait",
     "primaryColor": "#f7cbcb",
     "splash": {

@@ -32,8 +32,6 @@ export default function AppHome() {
           <Image source={SingularityLogo} style={styles.Image} />
         </View>
 
-        {/*  */}
-
         <Text style={styles.paragraph}>
           {'\n\n'}
           Singularity is a global community{'\n'}
@@ -44,8 +42,6 @@ export default function AppHome() {
           who believe that exponential technologies{'\n'}
           are the key to solving humanity's biggest challenges.
         </Text>
-
-        {/*  */}
 
         <TextInput
           style={styles.input}
